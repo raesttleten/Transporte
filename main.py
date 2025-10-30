@@ -1,4 +1,4 @@
-from gitfastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 import models, schemas, crud
 from database import Base, engine, SessionLocal
